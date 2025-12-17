@@ -30,46 +30,39 @@ Game Logic: chess.js
 
 # Project Structure
 
-C:.
-│   package-lock.json  
-│   package.json  
-│   README.md  
-│
-└───server  
-    │   index.js  
-    │   socket.js  
-    │
-    ├───game  
-    │       Game.js  
-    │       GameManager.js  
-    │
-    ├───public  
-    │   │   app.js  
-    │   │   index.html  
-    │   │   style.css  
-    │   │  
-    │   ├───img  
-    │   │   └───chesspieces  
-    │   │       └───wikipedia  
-    │   │               bB.png  
-    │   │               bK.png  
-    │   │               bN.png  
-    │   │               bP.png  
-    │   │               bQ.png  
-    │   │               bR.png  
-    │   │               wB.png  
-    │   │               wK.png  
-    │   │               wN.png  
-    │   │               wP.png  
-    │   │               wQ.png  
-    │   │               wR.png  
-    │   │  
-    │   └───libs  
-    │           chessboard-1.0.0.min.css  
-    │           chessboard-1.0.0.min.js  
-    │  
-    └───utils  
-            ids.js  
+server/
+    ├── game/
+        ├── Game.js
+        └── GameManager.js
+    ├── public/
+        ├── img/
+            └── chesspieces/
+                └── wikipedia/
+                    ├── bB.png
+                    ├── bK.png
+                    ├── bN.png
+                    ├── bP.png
+                    ├── bQ.png
+                    ├── bR.png
+                    ├── wB.png
+                    ├── wK.png
+                    ├── wN.png
+                    ├── wP.png
+                    ├── wQ.png
+                    └── wR.png
+        ├── libs/
+            ├── chessboard-1.0.0.min.css
+            └── chessboard-1.0.0.min.js
+        ├── app.js
+        ├── index.html
+        └── style.css
+    ├── utils/
+        └── ids.js
+    ├── index.js
+    └── socket.js
+package-lock.json
+package.json
+README.md
 # Setup and run locally  
   
 git clone https://github.com/Arjunnarenreddy01/Chess.git    
