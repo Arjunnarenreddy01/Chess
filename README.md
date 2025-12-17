@@ -31,54 +31,58 @@ Game Logic: chess.js
 # Project Structure
 
 C:.
-│   package-lock.json
-│   package.json
-│   README.md
+│   package-lock.json  
+│   package.json  
+│   README.md  
 │
-└───server
-    │   index.js
-    │   socket.js
+└───server  
+    │   index.js  
+    │   socket.js  
     │
-    ├───game
-    │       Game.js
-    │       GameManager.js
+    ├───game  
+    │       Game.js  
+    │       GameManager.js  
     │
-    ├───public
-    │   │   app.js
-    │   │   index.html
-    │   │   style.css
-    │   │
-    │   ├───img
-    │   │   └───chesspieces
-    │   │       └───wikipedia
-    │   │               bB.png
-    │   │               bK.png
-    │   │               bN.png
-    │   │               bP.png
-    │   │               bQ.png
-    │   │               bR.png
-    │   │               wB.png
-    │   │               wK.png
-    │   │               wN.png
-    │   │               wP.png
-    │   │               wQ.png
-    │   │               wR.png
-    │   │
-    │   └───libs
-    │           chessboard-1.0.0.min.css
-    │           chessboard-1.0.0.min.js
-    │
-    └───utils
-            ids.js
-# Setup and run locally
+    ├───public  
+    │   │   app.js  
+    │   │   index.html  
+    │   │   style.css  
+    │   │  
+    │   ├───img  
+    │   │   └───chesspieces  
+    │   │       └───wikipedia  
+    │   │               bB.png  
+    │   │               bK.png  
+    │   │               bN.png  
+    │   │               bP.png  
+    │   │               bQ.png  
+    │   │               bR.png  
+    │   │               wB.png  
+    │   │               wK.png  
+    │   │               wN.png  
+    │   │               wP.png  
+    │   │               wQ.png  
+    │   │               wR.png  
+    │   │  
+    │   └───libs  
+    │           chessboard-1.0.0.min.css  
+    │           chessboard-1.0.0.min.js  
+    │  
+    └───utils  
+            ids.js  
+# Setup and run locally  
+  
+git clone https://github.com/Arjunnarenreddy01/Chess.git    
 
-git clone https://github.com/Arjunnarenreddy01/Chess.git
-cd Chess
+cd Chess  
 
-npm install
 
-cd server
-node index.js
+npm install  
 
-open in browser at
-http://localhost:3000
+
+cd server  
+node index.js  
+
+open in browser at  
+http://localhost:3000  
+
