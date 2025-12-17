@@ -30,39 +30,8 @@ Game Logic: chess.js
 
 # Project Structure
 
-server/
-    ├── game/
-        ├── Game.js
-        └── GameManager.js
-    ├── public/
-        ├── img/
-            └── chesspieces/
-                └── wikipedia/
-                    ├── bB.png
-                    ├── bK.png
-                    ├── bN.png
-                    ├── bP.png
-                    ├── bQ.png
-                    ├── bR.png
-                    ├── wB.png
-                    ├── wK.png
-                    ├── wN.png
-                    ├── wP.png
-                    ├── wQ.png
-                    └── wR.png
-        ├── libs/
-            ├── chessboard-1.0.0.min.css
-            └── chessboard-1.0.0.min.js
-        ├── app.js
-        ├── index.html
-        └── style.css
-    ├── utils/
-        └── ids.js
-    ├── index.js
-    └── socket.js
-package-lock.json
-package.json
-README.md
+<img width="866" height="968" alt="image" src="https://github.com/user-attachments/assets/82656e62-d51e-4e2c-9392-4f88be925b41" />
+
 # Setup and run locally  
   
 git clone https://github.com/Arjunnarenreddy01/Chess.git    
