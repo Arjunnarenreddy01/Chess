@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chess Rooms</title>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- chessboard.js -->
+  <link rel="stylesheet" href="/libs/chessboard-1.0.0.min.css" />
+  <script src="/libs/chessboard-1.0.0.min.js"></script>
+
+  <!-- socket.io -->
+  <script src="/socket.io/socket.io.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <header class="header">
+      <h1>♟ Chess Rooms</h1>
+      <p>Real-time multiplayer</p>
+    </header>
+
+    <div class="controls">
+      <button class="primary" onclick="createRoom()">Create Room</button>
+
+      <div class="join-box">
+        <input id="roomIdInput" placeholder="Room ID" />
+        <button onclick="joinRoom()">Join</button>
+      </div>
+    </div>
+
+    <div class="game">
+      <div id="board"></div>
+
+      <div class="info">
+        <div class="card">
+          <h3>Status</h3>
+          <p id="statusText">Waiting for game…</p>
+        </div>
+
+        <div class="card">
+          <h3>Room</h3>
+          <p id="roomText">—</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

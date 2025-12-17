@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 900px;
+  max-width: 95%;
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header p {
+  opacity: 0.7;
+  margin-top: 4px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.primary {
+  background: #22c55e;
+  color: #022c22;
+}
+
+.primary:hover {
+  background: #16a34a;
+}
+
+.join-box {
+  display: flex;
+  gap: 6px;
+}
+
+.join-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: white;
+  width: 140px;
+}
+
+.join-box button {
+  background: #3b82f6;
+  color: white;
+}
+
+.join-box button:hover {
+  background: #2563eb;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 24px;
+  justify-content: center;
+}
+
+#board {
+  width: 420px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  background: rgba(2, 6, 23, 0.8);
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+}
+
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.card p {
+  margin: 0;
+  font-weight: 600;
+}
